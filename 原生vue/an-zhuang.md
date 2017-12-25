@@ -7,8 +7,8 @@
 #### 第一步：clone或者下载zip
 
 > 建议直接从github上下载zip，然后解压
->
-> clone方式：
+
+clone方式：
 
 ```
 先在本地创建一个文件夹：比如vue或者其他【clone的时候会自动生成vue-devtools文件夹】
@@ -21,6 +21,14 @@
 #### 第二步：安装项目依赖
 
 在安装过程中，会存在权限，网络等问题导致安装失败
+
+```
+执行命令顺序：
+npm install --registry=https://registry.npm.taobao  ---使用国内淘宝源安装
+npm install --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver  ---解决chromedriver插件下载失败问题
+npm cache clean --force  ---解决上面两步install操作chromedriver插件下载失败导致的缓存问题
+npm install --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver  ---再次下载
+```
 
 安装步骤一：
 
