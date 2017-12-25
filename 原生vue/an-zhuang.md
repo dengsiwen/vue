@@ -8,7 +8,7 @@
 
 > 建议直接从github上下载zip，然后解压
 
-clone方式：
+**clone方式**：
 
 ```
 先在本地创建一个文件夹：比如vue或者其他【clone的时候会自动生成vue-devtools文件夹】
