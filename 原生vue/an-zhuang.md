@@ -34,6 +34,8 @@ npm install --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver  -
 
 > 强烈建议：以管理员身份运行cmd，使用国内源进行安装：npm install --registry=[https://registry.npm.taobao.org](https://registry.npm.taobao.org)
 
+[【国内优秀npm镜像推荐及使用】](http://riny.net/2014/cnpm/)
+
 执行以上命令后，可能会报错：原因应该是网络问题导致某些包下载不到
 
 ![](/assets/import.png)
